@@ -1,0 +1,19 @@
+trigger:
+  batch: true
+  branches:
+    include:
+      - ops/wei-pipeline
+  paths:
+    include:
+      - test-pipeline
+
+pr:
+  autoCancel: false
+  branches:
+    include:
+      # - main
+      - test-pipeline
+  paths:
+    include:
+      - test-pipeline
+
