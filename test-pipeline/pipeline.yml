@@ -20,6 +20,5 @@ variables:
   - name: yuhuipipeline
     value: $[or(eq(variables['System.PullRequest.SourceBranch'], 'test-pipeline'), eq(variables['Build.SourceBranch'], 'refs/heads/test-pipeline'))]
 
-job:
-  - job: hello world
+
   
