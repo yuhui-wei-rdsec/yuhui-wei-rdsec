@@ -8,7 +8,6 @@ trigger:
       - test-pipeline
 
 pr:
-  autoCancel: false
   branches:
     include:
       # - main
