@@ -1,27 +1,14 @@
 trigger:
-  batch: true
-  branches:
-    include:
-      - ops/wei-pipeline
-      - ops/stg-pipeline
-  paths:
-    include:
-      - test-pipeline
+- main
 
-pr:
-  autoCancel: false
-  branches:
-    include:
-      # - main
-      - ops/wei-pipeline
-      - ops/stg-pipeline
-  paths:
-    include:
-      - test-pipeline
-variables:
-  - name: yuhuipipeline
-    value: $[or(eq(variables['System.PullRequest.SourceBranch'], 'test-pipeline'), eq(variables['Build.SourceBranch'], 'refs/heads/test-pipeline'))]
+pool:
+  vmImage: ubuntu-latest
 
-job:
-  - job: hello world
-  
+steps:
+- script: echo Hello world!
+  displayName: 'Run a one-line script'
+
+- script: |
+    echo Add other tasks to build, test, and deploy your project.
+    echo See https://aka.ms/yaml
+  displayName: 'Run a multi-line script'
