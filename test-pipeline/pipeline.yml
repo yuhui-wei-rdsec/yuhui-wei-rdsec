@@ -3,6 +3,7 @@ trigger:
   branches:
     include:
       - ops/wei-pipeline
+      - ops/stg-pipeline
   paths:
     include:
       - test-pipeline
@@ -12,7 +13,8 @@ pr:
   branches:
     include:
       # - main
-      - test-pipeline
+      - ops/wei-pipeline
+      - ops/stg-pipeline
   paths:
     include:
       - test-pipeline
