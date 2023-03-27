@@ -28,17 +28,17 @@ if __name__ == '__main__':
     gls = global_json()
     # print(gls)
     
-    # ret = []
-    # for i in cns:
-    #     if i not in gls:
-    #         ret.append(i)
-    # print(ret)
+    ret = []
+    for i in cns:
+        if i not in gls:
+            ret.append(i)
+    print(ret)
     
     
-    ret1 = []
-    for i in gls:
-        if i not in cns:
-            ret1.append(i)
-    print(ret1)
+    # ret1 = []
+    # for i in gls:
+    #     if i not in cns:
+    #         ret1.append(i)
+    # print(ret1)
     
 

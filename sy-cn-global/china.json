@@ -1,4 +1,5 @@
 {
+    "@odata.context": "https://microsoftgraph.chinacloudapi.cn/v1.0/$metadata#directoryObjects",
     "china": [
         {
             "@odata.type": "#microsoft.graph.user",
@@ -3096,20 +3097,6 @@
         },
         {
             "@odata.type": "#microsoft.graph.user",
-            "id": "eb54d724-6533-480d-865f-bb117ea96c00",
-            "businessPhones": [],
-            "displayName": "Pheobe Chen (RD-CN-INTRN)",
-            "givenName": null,
-            "jobTitle": null,
-            "mail": "pheobe_chen@trendmicro.com",
-            "mobilePhone": null,
-            "officeLocation": null,
-            "preferredLanguage": null,
-            "surname": null,
-            "userPrincipalName": "pheobe_chen@trendmicro.cn"
-        },
-        {
-            "@odata.type": "#microsoft.graph.user",
             "id": "db72514a-b2c6-4206-b822-76580f3c3a8d",
             "businessPhones": [],
             "displayName": "Norman Lu (RD-CN)",
@@ -3376,20 +3363,6 @@
         },
         {
             "@odata.type": "#microsoft.graph.user",
-            "id": "45d3dd2f-2ed5-4ac5-9279-5ace848107a6",
-            "businessPhones": [],
-            "displayName": "Summer Hu (RD-CN)",
-            "givenName": null,
-            "jobTitle": null,
-            "mail": "summer_hu@trendmicro.com",
-            "mobilePhone": null,
-            "officeLocation": null,
-            "preferredLanguage": null,
-            "surname": null,
-            "userPrincipalName": "summer_hu@trendmicro.cn"
-        },
-        {
-            "@odata.type": "#microsoft.graph.user",
             "id": "afc4319b-a699-4a70-87e8-4ba7945d93f3",
             "businessPhones": [],
             "displayName": "Naved Mir (RD-AU)",
@@ -3583,6 +3556,34 @@
             "preferredLanguage": null,
             "surname": null,
             "userPrincipalName": "joan_zhang@trendmicro.cn"
+        },
+        {
+            "@odata.type": "#microsoft.graph.user",
+            "id": "92aa2233-ea33-42e2-87a3-dfee68759b72",
+            "businessPhones": [],
+            "displayName": "Jamie Jiang (RD-CN)",
+            "givenName": null,
+            "jobTitle": null,
+            "mail": "jamie_jiang@trendmicro.com",
+            "mobilePhone": null,
+            "officeLocation": null,
+            "preferredLanguage": null,
+            "surname": null,
+            "userPrincipalName": "jamie_jiang@trendmicro.cn"
+        },
+        {
+            "@odata.type": "#microsoft.graph.user",
+            "id": "fe8a2163-c1eb-4e66-b752-97faa07ebb6b",
+            "businessPhones": [],
+            "displayName": "Welocalize L10N Eng2 (EXT-CN)",
+            "givenName": null,
+            "jobTitle": null,
+            "mail": "susie.tong@welocalize.com",
+            "mobilePhone": null,
+            "officeLocation": null,
+            "preferredLanguage": null,
+            "surname": null,
+            "userPrincipalName": "welocalize_l10n_eng2@trendmicro.cn"
         }
     ]
 }
